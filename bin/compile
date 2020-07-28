@@ -34,6 +34,7 @@ if [ -f $WKHTMLTOPDF_TAR ]; then
   echo "-----> Using wkhtmltopdf tar from cache"
 else
   echo "-----> Downloading wkhtmltopdf tar"
+  echo "-----> URL: ${WKHTMLTOPDF_URL}"
   curl -L $WKHTMLTOPDF_URL -o $WKHTMLTOPDF_TAR
 fi
 
