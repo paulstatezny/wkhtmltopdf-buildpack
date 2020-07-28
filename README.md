@@ -6,7 +6,7 @@ binary with your environment.
 ## Versions
 
 * Buildpack:   `0.2`
-* wkhtmltopdf: `0.12.3` by default
+* wkhtmltopdf: `0.12.6` by default
 
 ## Usage
 
