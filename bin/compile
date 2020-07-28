@@ -27,6 +27,9 @@ WKHTMLTOPDF_LIBS="$WKHTMLTOPDF_PATH/lib"
 BIN_DIR=$(cd $(dirname $0); pwd)
 FONTS_DIR=$(cd "$BIN_DIR/../fonts"; pwd)
 
+echo "-----> LATEST COMMIT ====================== 1234567890 ============================"
+echo "-----> WKHTMLTOPDF_VERSION: ${WKHTMLTOPDF_VERSION}"
+
 if [ -f $WKHTMLTOPDF_TAR ]; then
   echo "-----> Using wkhtmltopdf tar from cache"
 else
